@@ -1,0 +1,15 @@
+@ECHO OFF
+
+IF "%1" == "install" GOTO INSTALL_NPM_PACKAGES
+GOTO FORWARD_TO_TASK_MANAGER
+
+:INSTALL_NPM_PACKAGES
+CALL npm install
+CALL npm update --save-dev
+GOTO EXIT
+
+:FORWARD_TO_TASK_MANAGER
+CALL node_modules\.bin\gulp %*
+GOTO EXIT
+
+:EXIT

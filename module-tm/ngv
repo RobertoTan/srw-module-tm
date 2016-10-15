@@ -1,0 +1,11 @@
+#!/bin/bash
+
+case $1 in
+   install)
+       npm install
+       npm update --save-dev
+   ;;
+   *)
+       node_modules/.bin/gulp "$@"
+   ;;
+esac

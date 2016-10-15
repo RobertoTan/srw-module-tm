@@ -1,0 +1,6 @@
+{
+  "name": "com.unidiv.travelmoments",
+  "dependencies": [
+    "com.sabre.ngv.core"
+  ]
+}

@@ -1,0 +1,1 @@
+this.app=this.app||{},this.app.templates=this.app.templates||{},this.app.templates["com_unidiv_travelmoments:SampleView"]=Handlebars.template({compiler:[7,">= 4.0.0"],main:function(container,depth0,helpers,partials,data){return'<!-- Provide templates in this directory -->\r\n<p>Sample View</p>\r\n<p id="testP">test paragraph</p>'},useData:!0});

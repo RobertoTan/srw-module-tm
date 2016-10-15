@@ -1,0 +1,1 @@
+{"name":"com.unidiv.travelmoments","dependencies":["com.sabre.ngv.core"],"submodules":["com_unidiv_travelmoments/Main","com_unidiv_travelmoments/views/SampleTile","com_unidiv_travelmoments/views/SampleView"]}
